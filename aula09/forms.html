@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Form</title>
+
+    <link rel="shortcut icon" href="ordem icon.webp" type="image/x-icon">
+
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Seu cadastro</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            <br><br>
+            <label for="E-mail">E-mail: </label>
+            <input type="email" id="nome" name="nome" placeholder="exemple.1@gmail.com" required>
+            <br><br>
+            <label for="idade">Idade:</label>
+            <select name="temp" id="temp" required>
+                <option disabled selected>Selecione</option>
+                <option value="01">12</option>
+                <option value="01">13</option>
+                <option value="01">14</option>
+                <option value="01">15</option>
+                <option value="01">16</option>
+                <option value="01">17</option>
+                <option value="01">+18</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Seu mundo</legend>
+            <p>Temporadas favoritas:</p>
+
+            <input type="checkbox" name="turma01" id="t01">
+            <label for="t01">Ordem paranormal - 01</label>
+            <br>
+            <input type="checkbox" name="turma02" id="t02">
+            <label for="t02">O segredo na floresta - 02</label>
+            <br>
+            <input type="checkbox" name="turma03" id="t03">
+            <label for="t03">Desconjuração - 03</label>
+            <br>
+            <input type="checkbox" name="turma03" id="t03">
+            <label for="t03">Calamidade - 04</label>
+            <br>
+            <input type="checkbox" name="turma03" id="t03">
+            <label for="t03">O segredo na ilha - 05</label>
+            <br>
+            <input type="checkbox" name="turma03" id="t03">
+            <label for="t03">Sinais do outro lado - 06</label>
+            <br>
+            <input type="checkbox" name="turma03" id="t03">
+            <label for="t03">Quarentena - 07</label>
+            <br>
+            <input type="checkbox" name="turma03" id="t03">
+            <label for="t03">Natal macabro - 08</label>
+            <br>
+
+            <p>Seu elemento:</p>
+
+            <input type="radio" name="elem" id="elem">
+            <label for="elem">Conhecimento</label>
+            <br>
+            <input type="radio" name="elem" id="elem">
+            <label for="elem">Sangue</label>
+            <br>
+            <input type="radio" name="elem" id="elem">
+            <label for="elem">Morte</label>
+            <br>
+            <input type="radio" name="elem" id="elem">
+            <label for="elem">Energia</label>
+            <br>
+            <input type="radio" name="elem" id="elem">
+            <label for="elem">Medo</label>
+            <br>
+            <input type="radio" name="elem" id="elem">
+            <label for="elem">Ainda não sei</label>
+            <br>
+
+            <p>Classe:</p>
+
+            <input type="radio" name="cls" id="cls">
+            <label for="cls">Ocultista</label> <br>
+            <input type="radio" name="cls" id="cls">
+            <label for="cls">Combatente</label> <br>
+            <input type="radio" name="cls" id="cls">
+            <label for="cls">Especialista</label> <br>
+            <input type="radio" name="cls" id="cls">
+            <label for="cls">Ainda não sei</label> <br>
+
+
+
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Seu personagem</legend>
+            <p>Cor da pele:</p>
+            <input type="color" name="color" id="color">
+
+            <p>Altura:</p>
+
+            <input type="radio" name="alt" id="alt">
+            <label for="alt">-1.60</label><br>
+            <input type="radio" name="alt" id="alt">
+            <label for="alt">1.60 - 1.70</label><br>
+            <input type="radio" name="alt" id="alt">
+            <label for="alt">1.70 - 1.80</label><br>
+            <input type="radio" name="alt" id="alt">
+            <label for="alt">+1.80</label><br>
+
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Sugestão</legend>
+            <label for="sugestao">Deixe aqui sua sugestão: <span style="color: rgb(255, 0, 0);">*</span></label>
+            <br><br>
+            <textarea cols="30" rows="5" maxlength="110" name="obs" id="obs"
+                placeholder="Deixe aqui sua sugestão"></textarea>
+
+
+            <hr>
+            <input type="submit" value="enviar">
+            <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
